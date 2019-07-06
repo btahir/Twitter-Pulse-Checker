@@ -2,6 +2,8 @@
 
 ![preview](https://cdn.pixabay.com/photo/2013/06/07/09/53/twitter-117595_960_720.png)
 
+Blog Post: https://towardsdatascience.com/twitter-pulse-checker-an-interactive-colab-notebook-for-data-sciencing-on-twitter-76a27ec8526f
+
 This is a quick and dirty way to get a sense of what's trending on Twitter related to a particular Topic. For my use case, I am focusing on the city of Seattle but you can easily apply this to any topic.
 
 Use the GPU for this notebook to speed things up: select the menu option "Runtime" -> "Change runtime type", select "Hardware Accelerator" -> "GPU" and click "SAVE".
