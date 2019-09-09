@@ -8,7 +8,7 @@ This is a quick and dirty way to get a sense of what's trending on Twitter relat
 
 Use the GPU for this notebook to speed things up: select the menu option "Runtime" -> "Change runtime type", select "Hardware Accelerator" -> "GPU" and click "SAVE".
 
-The code in this notebook does the following things:
+### The code in this notebook does the following things:
 
 Scrapes Tweets related to the Topic you are interested in.
 Extracts relevant Tags from the text (NER: Named Entity Recognition).
@@ -16,13 +16,13 @@ Does Sentiment Analysis on those Tweets.
 Provides some visualizations in an interactive format to get a 'pulse' of what's happening.
 We use Tweepy to scrape Twitter data and Flair to do NER / Sentiment Analysis. We use Seaborn for visualizations and all of this is possible because of the wonderful, free and fast (with GPU) Google Colab.
 
-A bit about NER (Named Entity Recognition)
+### A bit about NER (Named Entity Recognition)
 
 This is the process of extracting labels form text.
 
 So, take an example sentence: 'George Washington went to Washington'. NER will allow us to extract labels such as Person for 'George Washington' and Location for 'Washington (state)'. It is one of the most common and useful applications in NLP and, using it, we can extract labels from Tweets and do analysis on them.
 
-A bit about Sentiment Analysis
+### A bit about Sentiment Analysis
 
 Most commonly, this is the process of getting a sense of whether some text is Positive or Negative. More generally, you can apply it to any label of your choosing (Spam/No Spam etc.).
 
